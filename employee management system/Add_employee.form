@@ -49,100 +49,100 @@
               <Group type="102" attributes="0">
                   <EmptySpace min="-2" pref="121" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
-                      <Group type="103" groupAlignment="0" attributes="0">
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel7" min="-2" pref="74" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jTextField7" min="-2" pref="190" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel6" min="-2" pref="74" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jTextField6" min="-2" pref="190" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel5" min="-2" pref="74" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jTextField5" min="-2" pref="190" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel4" min="-2" pref="74" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jTextField4" min="-2" pref="190" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Component id="jLabel3" min="-2" pref="74" max="-2" attributes="0"/>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Component id="jTextField3" min="-2" pref="190" max="-2" attributes="0"/>
-                          </Group>
-                          <Group type="102" attributes="0">
-                              <Group type="103" groupAlignment="1" attributes="0">
-                                  <Component id="jLabel2" min="-2" pref="74" max="-2" attributes="0"/>
-                                  <Component id="jLabel1" min="-2" pref="74" max="-2" attributes="0"/>
-                                  <Component id="jLabel9" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                                  <Component id="textlastname" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <Component id="textfirstname" min="-2" pref="74" max="-2" attributes="0"/>
+                                  <Component id="textid" alignment="1" min="-2" pref="74" max="-2" attributes="0"/>
                               </Group>
-                              <EmptySpace type="separate" max="-2" attributes="0"/>
-                              <Group type="103" groupAlignment="0" attributes="0">
-                                  <Component id="jTextField1" min="-2" pref="190" max="-2" attributes="0"/>
-                                  <Component id="jTextField2" min="-2" pref="190" max="-2" attributes="0"/>
-                                  <Component id="jTextField8" min="-2" pref="190" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="jLabel2" alignment="0" min="-2" pref="94" max="-2" attributes="0"/>
+                              <Component id="jLabel1" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="textemail" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="textphoneno" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="textdateofbirth" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="textdepartment" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
+                              <Component id="textstatus" alignment="0" min="-2" pref="74" max="-2" attributes="0"/>
                           </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="status" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="salary" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="dateofbirth" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="gender" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="department" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="firstname" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="id" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="email" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="phoneno" min="-2" pref="190" max="-2" attributes="0"/>
+                              <Component id="lastname" min="-2" pref="190" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" attributes="0">
                           <Component id="jLabel8" min="-2" pref="112" max="-2" attributes="0"/>
                           <EmptySpace min="-2" pref="56" max="-2" attributes="0"/>
-                          <Component id="jButton1" min="-2" pref="96" max="-2" attributes="0"/>
+                          <Component id="add" min="-2" pref="96" max="-2" attributes="0"/>
                       </Group>
                   </Group>
-                  <EmptySpace pref="351" max="32767" attributes="0"/>
+                  <EmptySpace pref="321" max="32767" attributes="0"/>
               </Group>
           </Group>
         </DimensionLayout>
         <DimensionLayout dim="1">
           <Group type="103" groupAlignment="0" attributes="0">
               <Group type="102" alignment="0" attributes="0">
-                  <EmptySpace min="-2" pref="125" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="68" max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jTextField8" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jLabel9" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="jLabel2" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="id" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="jLabel1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="firstname" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="lastname" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textid" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="1" attributes="0">
                       <Group type="102" attributes="0">
                           <Group type="103" groupAlignment="3" attributes="0">
-                              <Component id="jTextField1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                              <Component id="jLabel1" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="email" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                              <Component id="textfirstname" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
-                          <Component id="jLabel2" min="-2" pref="27" max="-2" attributes="0"/>
+                          <Component id="textlastname" min="-2" pref="27" max="-2" attributes="0"/>
                       </Group>
-                      <Component id="jTextField2" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="phoneno" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel3" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jTextField3" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textemail" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="department" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel4" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jTextField4" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textphoneno" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="gender" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel5" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jTextField5" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textdateofbirth" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="dateofbirth" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel6" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jTextField6" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textdepartment" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="salary" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <EmptySpace max="-2" attributes="0"/>
                   <Group type="103" groupAlignment="3" attributes="0">
-                      <Component id="jLabel7" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
-                      <Component id="jTextField7" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="textstatus" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
+                      <Component id="status" alignment="3" min="-2" pref="27" max="-2" attributes="0"/>
                   </Group>
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
@@ -151,7 +151,7 @@
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
                           <EmptySpace min="-2" pref="57" max="-2" attributes="0"/>
-                          <Component id="jButton1" min="-2" pref="45" max="-2" attributes="0"/>
+                          <Component id="add" min="-2" pref="45" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                   <EmptySpace pref="69" max="32767" attributes="0"/>
@@ -160,77 +160,97 @@
         </DimensionLayout>
       </Layout>
       <SubComponents>
-        <Component class="javax.swing.JLabel" name="jLabel1">
+        <Component class="javax.swing.JLabel" name="textfirstname">
           <Properties>
-            <Property name="text" type="java.lang.String" value="First Name:"/>
+            <Property name="text" type="java.lang.String" value="Email"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel2">
+        <Component class="javax.swing.JLabel" name="textlastname">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Lasr Name:"/>
+            <Property name="text" type="java.lang.String" value="Phone-no"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel3">
+        <Component class="javax.swing.JLabel" name="textemail">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Email:"/>
+            <Property name="text" type="java.lang.String" value="Department"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel4">
+        <Component class="javax.swing.JLabel" name="textphoneno">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Phone-no:"/>
+            <Property name="text" type="java.lang.String" value="Gender"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel5">
+        <Component class="javax.swing.JLabel" name="textdateofbirth">
           <Properties>
             <Property name="text" type="java.lang.String" value="Date-of-birth:"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel6">
+        <Component class="javax.swing.JLabel" name="textdepartment">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Department:"/>
+            <Property name="text" type="java.lang.String" value="Salary"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel7">
+        <Component class="javax.swing.JLabel" name="textstatus">
           <Properties>
             <Property name="text" type="java.lang.String" value="Status"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField1">
+        <Component class="javax.swing.JTextField" name="email">
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jTextField1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="emailActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField2">
+        <Component class="javax.swing.JTextField" name="phoneno">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField3">
+        <Component class="javax.swing.JTextField" name="department">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField4">
+        <Component class="javax.swing.JTextField" name="gender">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField5">
+        <Component class="javax.swing.JTextField" name="dateofbirth">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField6">
+        <Component class="javax.swing.JTextField" name="salary">
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField7">
+        <Component class="javax.swing.JTextField" name="status">
         </Component>
         <Component class="javax.swing.JLabel" name="jLabel8">
           <Properties>
             <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-              <Image iconType="2" name="C:\Users\nahid\Desktop\images (1).jpg"/>
+              <Image iconType="3" name="/image/images (1).jpg"/>
             </Property>
             <Property name="text" type="java.lang.String" value="jLabel8"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="jButton1">
+        <Component class="javax.swing.JButton" name="add">
           <Properties>
             <Property name="text" type="java.lang.String" value="ADD"/>
           </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addActionPerformed"/>
+          </Events>
         </Component>
-        <Component class="javax.swing.JLabel" name="jLabel9">
+        <Component class="javax.swing.JLabel" name="textid">
           <Properties>
-            <Property name="text" type="java.lang.String" value="Id:"/>
+            <Property name="text" type="java.lang.String" value="Last_name"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JTextField" name="jTextField8">
+        <Component class="javax.swing.JTextField" name="lastname">
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="First_name"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="firstname">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="firstnameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Id"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="id">
         </Component>
       </SubComponents>
     </Container>
