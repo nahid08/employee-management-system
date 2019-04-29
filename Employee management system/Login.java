@@ -14,7 +14,7 @@ import java.sql.Statement;
 
 /**
  *
- * @author nahid
+ * 
  */
 public class Login extends javax.swing.JFrame {
 
@@ -45,7 +45,7 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.setBackground(new java.awt.Color(51, 0, 153));
 
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\nahid\\Desktop\\images.jpg")); // NOI18N
+        jLabel1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/image/images.jpg"))); // NOI18N
         jLabel1.setText("jLabel1");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
@@ -140,7 +140,6 @@ public class Login extends javax.swing.JFrame {
             con=DriverManager.getConnection("jdbc:mysql://localhost:3306/Administrator",user,pass);
             stmt =con.createStatement();
             String sql="Select * from Admin";
-           // PreparedStatement psmt =con.prepareStatement(sql);
             rs=stmt.executeQuery(sql);
             
             
@@ -158,13 +157,13 @@ public class Login extends javax.swing.JFrame {
              String t2,t3;
              t2=rs.getString("username");
              t3=rs.getString("password");
-            // System.out.println(t2+" "+t3);
+            
              if(t.equals(t2)&&t1.equals(t3))f=true;
             }
             
             if(f==true)
             {
-                Employee e=new Employee();
+                Ems e=new Ems();
                 e.setVisible(true);
                 dispose();
             }
